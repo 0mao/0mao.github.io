@@ -6,15 +6,24 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>0mao</title>
+  <title>后端基础php——表单验证 | 0mao</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="0mao">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="前言  接受传参 连接数据库 数据库数据校验">
+<meta property="og:type" content="article">
+<meta property="og:title" content="后端基础php——表单验证">
+<meta property="og:url" content="http://example.com/2021/09/12/%E5%90%8E%E7%AB%AF%E5%9F%BA%E7%A1%80php%E2%80%94%E2%80%94%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81/index.html">
 <meta property="og:site_name" content="0mao">
+<meta property="og:description" content="前言  接受传参 连接数据库 数据库数据校验">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/2021/09/12/%E5%90%8E%E7%AB%AF%E5%9F%BA%E7%A1%80php%E2%80%94%E2%80%94%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81/1.png">
+<meta property="og:image" content="http://example.com/2021/09/12/%E5%90%8E%E7%AB%AF%E5%9F%BA%E7%A1%80php%E2%80%94%E2%80%94%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81/2.png">
+<meta property="og:image" content="http://example.com/2021/09/12/%E5%90%8E%E7%AB%AF%E5%9F%BA%E7%A1%80php%E2%80%94%E2%80%94%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81/3.png">
+<meta property="og:image" content="http://example.com/2021/09/12/%E5%90%8E%E7%AB%AF%E5%9F%BA%E7%A1%80php%E2%80%94%E2%80%94%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81/4.png">
+<meta property="article:published_time" content="2021-09-12T06:02:09.000Z">
+<meta property="article:modified_time" content="2021-10-16T11:10:10.085Z">
 <meta property="article:author" content="Tang Yulin">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/2021/09/12/%E5%90%8E%E7%AB%AF%E5%9F%BA%E7%A1%80php%E2%80%94%E2%80%94%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81/1.png">
   
     <link rel="alternative" href="/atom.xml" title="0mao" type="application/atom+xml">
   
@@ -149,166 +158,24 @@
           </div>
           <div id="js-content" class="content-ll">
             
-  
-    <article id="post-CentOS-7搭建OpenVPN" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+<article id="post-后端基础php——表单验证" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/">CentOS 7搭建OpenVPN</a>
+    <h1 class="article-title" itemprop="name">
+      后端基础php——表单验证
     </h1>
   
 
         
         
+	<!-- 不蒜子统计 -->
+	<span id="busuanzi_container_page_pv" style='display:none' class="archive-article-date">
+		  <i class="icon-smile icon"></i> 阅读数：<span id="busuanzi_value_page_pv"></span>次
+	</span>
 
-<a href="/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/" class="archive-article-date">
-  	<time datetime="2021-10-11T12:47:03.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-10-11</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>前言</p>
-<hr>
-<p>网络安全第二次作业</p>
-<hr>
-        
-          <a class="article-more-a" href="/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-
-
-  
-    <article id="post-初识数据库" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/09/15/%E5%88%9D%E8%AF%86%E6%95%B0%E6%8D%AE%E5%BA%93/">初识数据库</a>
-    </h1>
-  
-
-        
-        
-
-<a href="/2021/09/15/%E5%88%9D%E8%AF%86%E6%95%B0%E6%8D%AE%E5%BA%93/" class="archive-article-date">
-  	<time datetime="2021-09-15T11:41:26.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-09-15</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>前言</p>
-<hr>
-<p>复习、记录一些sql语句</p>
-<hr>
-        
-          <a class="article-more-a" href="/2021/09/15/%E5%88%9D%E8%AF%86%E6%95%B0%E6%8D%AE%E5%BA%93/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/09/15/%E5%88%9D%E8%AF%86%E6%95%B0%E6%8D%AE%E5%BA%93/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-
-
-  
-    <article id="post-后端基础php——表单验证" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/09/12/%E5%90%8E%E7%AB%AF%E5%9F%BA%E7%A1%80php%E2%80%94%E2%80%94%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81/">后端基础php——表单验证</a>
-    </h1>
-  
-
-        
-        
 
 <a href="/2021/09/12/%E5%90%8E%E7%AB%AF%E5%9F%BA%E7%A1%80php%E2%80%94%E2%80%94%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81/" class="archive-article-date">
   	<time datetime="2021-09-12T06:02:09.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-09-12</time>
@@ -322,101 +189,144 @@
 <hr>
 <p>接受传参 连接数据库 数据库数据校验</p>
 <hr>
-        
-          <a class="article-more-a" href="/2021/09/12/%E5%90%8E%E7%AB%AF%E5%9F%BA%E7%A1%80php%E2%80%94%E2%80%94%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81/#more">more >></a>
-        
-      
+<span id="more"></span>
 
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/09/12/%E5%90%8E%E7%AB%AF%E5%9F%BA%E7%A1%80php%E2%80%94%E2%80%94%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-
-
-  
-    <article id="post-测试图片" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/09/08/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87/">测试图片</a>
-    </h1>
-  
-
-        
-        
-
-<a href="/2021/09/08/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87/" class="archive-article-date">
-  	<time datetime="2021-09-08T12:36:34.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-09-08</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>前言</p>
 <hr>
-        
-          <a class="article-more-a" href="/2021/09/08/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87/#more">more >></a>
-        
+<h2 id="1，主页"><a href="#1，主页" class="headerlink" title="1，主页"></a>1，主页</h2><p><img src="1.png"></p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="meta-keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;utf-8&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">title</span>&gt;</span>Astronomy主页<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;register.html&quot;</span>&gt;</span>注册<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;forms_login.html&quot;</span>&gt;</span>登录<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="2，注册页面"><a href="#2，注册页面" class="headerlink" title="2，注册页面"></a>2，注册页面</h2><p><img src="2.png"></p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;meta charset=<span class="string">&quot;utf-8&quot;</span>&gt;</span><br><span class="line">&lt;title&gt;Astronomy注册&lt;/title&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">&lt;a href=<span class="string">&quot;forms_register.html&quot;</span>&gt;返回主页&lt;/a&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line"><span class="variable">$username</span> = <span class="variable">$_POST</span>[<span class="string">&#x27;username&#x27;</span>];</span><br><span class="line"><span class="variable">$password</span> = <span class="variable">$_POST</span>[<span class="string">&#x27;password&#x27;</span>];</span><br><span class="line"><span class="variable">$conn</span> = mysqli_connect(<span class="string">&#x27;localhost&#x27;</span>, <span class="string">&#x27;root&#x27;</span>, <span class="string">&#x27;root&#x27;</span>, <span class="string">&#x27;astronomy&#x27;</span>);</span><br><span class="line"><span class="variable">$sql</span> = <span class="string">&quot;insert into admin value(&#x27;<span class="subst">$username</span>&#x27;, &#x27;<span class="subst">$password</span>&#x27;)&quot;</span>;</span><br><span class="line"><span class="variable">$result</span> = mysqli_query(<span class="variable">$conn</span>, <span class="variable">$sql</span>);</span><br><span class="line"><span class="keyword">if</span>(<span class="variable">$username</span> != <span class="string">&#x27;&#x27;</span> <span class="keyword">and</span> <span class="variable">$password</span> != <span class="string">&#x27;&#x27;</span>)&#123;</span><br><span class="line">	<span class="keyword">echo</span> <span class="string">&#x27;&lt;script&gt;alert(&quot;注册成功！&quot;)&lt;/script&gt;&#x27;</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">else</span>&#123;</span><br><span class="line">	<span class="keyword">echo</span> <span class="string">&#x27;&lt;script&gt;alert(&quot;很抱歉，注册失败，请输入正确的用户名和密码！&quot;)&lt;/script&gt;&#x27;</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="3，登录页面"><a href="#3，登录页面" class="headerlink" title="3，登录页面"></a>3，登录页面</h2><p><img src="3.png"></p>
+<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;meta charset=<span class="string">&quot;utf-8&quot;</span>&gt;</span><br><span class="line">&lt;title&gt;Astronomy登录&lt;/title&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">&lt;a href=<span class="string">&quot;forms_register.html&quot;</span>&gt;返回主页&lt;/a&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br><span class="line"><span class="meta">&lt;?php</span></span><br><span class="line">@<span class="variable">$username</span> = <span class="variable">$_POST</span>[<span class="string">&#x27;username&#x27;</span>];</span><br><span class="line">@<span class="variable">$password</span> = <span class="variable">$_POST</span>[<span class="string">&#x27;password&#x27;</span>];</span><br><span class="line"><span class="variable">$conn</span> = mysqli_connect(<span class="string">&#x27;localhost&#x27;</span>, <span class="string">&#x27;root&#x27;</span>, <span class="string">&#x27;root&#x27;</span>, <span class="string">&#x27;astronomy&#x27;</span>);</span><br><span class="line"><span class="variable">$sql</span> = <span class="string">&quot;select *from admin where username = &#x27;<span class="subst">$username</span>&#x27; and password = &#x27;<span class="subst">$password</span>&#x27;&quot;</span>;</span><br><span class="line"><span class="variable">$result</span> = mysqli_query(<span class="variable">$conn</span>, <span class="variable">$sql</span>);</span><br><span class="line"><span class="keyword">if</span>(mysqli_fetch_array(<span class="variable">$result</span>)[<span class="string">&#x27;username&#x27;</span>] == <span class="variable">$username</span>)&#123;</span><br><span class="line">	<span class="keyword">echo</span> <span class="string">&#x27;&lt;script&gt;alert(&quot;登录成功！&quot;)&lt;/script&gt;&#x27;</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">else</span>&#123;</span><br><span class="line">	<span class="keyword">echo</span> <span class="string">&#x27;&lt;script&gt;alert(&quot;很抱歉，登录失败，请输入正确的用户名和密码！&quot;)&lt;/script&gt;&#x27;</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="meta">?&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="4，存储的数据"><a href="#4，存储的数据" class="headerlink" title="4，存储的数据"></a>4，存储的数据</h2><p><img src="4.png"></p>
+
       
 
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/zfb.jpg">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/wx.png">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
       
     </div>
     <div class="article-info article-info-index">
       
+        <span id="busuanzi_container_page_pv">
+          本文总阅读量 <span id="busuanzi_value_page_pv"></span> 次
+        </span>
       
       
+      
+      
+
       
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/09/08/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87/">展开全文 >></a>
-        </p>
-      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
 
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://0mao.github.io/.com/2021/09/12/%E5%90%8E%E7%AB%AF%E5%9F%BA%E7%A1%80php%E2%80%94%E2%80%94%E8%A1%A8%E5%8D%95%E9%AA%8C%E8%AF%81/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+    <a href="/2021/09/15/%E5%88%9D%E8%AF%86%E6%95%B0%E6%8D%AE%E5%BA%93/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          初识数据库
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2021/09/08/%E6%B5%8B%E8%AF%95%E5%9B%BE%E7%89%87/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">测试图片</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -431,86 +341,61 @@
         </div>
         
         
-    </div>
-</aside>
-
-
-
-
-
-
-  
-    <article id="post-了解php" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2021/09/08/%E4%BA%86%E8%A7%A3php/">了解php</a>
-    </h1>
-  
-
-        
-        
-
-<a href="/2021/09/08/%E4%BA%86%E8%A7%A3php/" class="archive-article-date">
-  	<time datetime="2021-09-08T08:33:31.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-09-08</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>前言</p>
-<hr>
-        
-          <a class="article-more-a" href="/2021/09/08/%E4%BA%86%E8%A7%A3php/#more">more >></a>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2021/09/08/%E4%BA%86%E8%A7%A3php/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1%EF%BC%8C%E4%B8%BB%E9%A1%B5"><span class="toc-number">1.</span> <span class="toc-text">1，主页</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2%EF%BC%8C%E6%B3%A8%E5%86%8C%E9%A1%B5%E9%9D%A2"><span class="toc-number">2.</span> <span class="toc-text">2，注册页面</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3%EF%BC%8C%E7%99%BB%E5%BD%95%E9%A1%B5%E9%9D%A2"><span class="toc-number">3.</span> <span class="toc-text">3，登录页面</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4%EF%BC%8C%E5%AD%98%E5%82%A8%E7%9A%84%E6%95%B0%E6%8D%AE"><span class="toc-number">4.</span> <span class="toc-text">4，存储的数据</span></a></li></ol>
+                    </div>
+                </span>
             </div>
         </div>
         
-        
     </div>
 </aside>
 
 
 
+  
+  
+  
+
+  
+
+  
+
+  
 
 
 
   
+      <section id="comments" class="comments">
+        <style>
+          .comments{margin:30px;padding:10px;background:#fff}
+          @media screen and (max-width:800px){.comments{margin:auto;padding:10px;background:#fff}}
+        </style>
+        <div id="vcomment" class="comment"></div>
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script src="https://cdnjs.loli.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+  var notify = 'false' == true ? true : false;
+  var verify = 'false' == true ? true : false;
+  new Valine({
+    av: AV,
+    el: '#vcomment',
+    notify: notify,
+    app_id: "nvLSxrVHmhX4sMHP6A8YMR1d-MdYXbMMI",
+    app_key: "1uJRXTxi6mLqkcLv38D99hUG",
+    placeholder: "Just go go",
+    avatar: "mm",
+  });
+</script>
+
+    </section>
   
 
 
@@ -539,8 +424,8 @@
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,

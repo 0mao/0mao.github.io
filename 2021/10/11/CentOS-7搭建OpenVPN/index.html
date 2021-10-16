@@ -6,20 +6,41 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>Hello World | 0mao</title>
+  <title>CentOS 7搭建OpenVPN | 0mao</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Quick Start">
+  <meta name="description" content="前言  网络安全第二次作业">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://example.com/2021/09/08/hello-world/index.html">
+<meta property="og:title" content="CentOS 7搭建OpenVPN">
+<meta property="og:url" content="http://example.com/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/index.html">
 <meta property="og:site_name" content="0mao">
-<meta property="og:description" content="Quick Start">
+<meta property="og:description" content="前言  网络安全第二次作业">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2021-09-08T05:07:49.636Z">
-<meta property="article:modified_time" content="2021-09-08T09:07:14.449Z">
+<meta property="og:image" content="http://example.com/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/1.png">
+<meta property="og:image" content="http://example.com/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/2.png">
+<meta property="og:image" content="http://example.com/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/3.png">
+<meta property="og:image" content="http://example.com/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/4.png">
+<meta property="og:image" content="http://example.com/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/5.png">
+<meta property="og:image" content="http://example.com/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/6.png">
+<meta property="og:image" content="http://example.com/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/7.png">
+<meta property="og:image" content="http://example.com/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/8.png">
+<meta property="og:image" content="http://example.com/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/9.png">
+<meta property="og:image" content="http://example.com/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/10.png">
+<meta property="og:image" content="http://example.com/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/11.png">
+<meta property="og:image" content="http://example.com/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/12.png">
+<meta property="og:image" content="http://example.com/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/21.png">
+<meta property="og:image" content="http://example.com/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/13.png">
+<meta property="og:image" content="http://example.com/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/14.png">
+<meta property="og:image" content="http://example.com/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/15.png">
+<meta property="og:image" content="http://example.com/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/16.png">
+<meta property="og:image" content="http://example.com/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/17.png">
+<meta property="og:image" content="http://example.com/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/18.png">
+<meta property="og:image" content="http://example.com/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/19.png">
+<meta property="og:image" content="http://example.com/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/20.png">
+<meta property="article:published_time" content="2021-10-11T12:47:03.000Z">
+<meta property="article:modified_time" content="2021-10-16T11:10:10.082Z">
 <meta property="article:author" content="Tang Yulin">
-<meta property="article:tag" content="随笔">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/1.png">
   
     <link rel="alternative" href="/atom.xml" title="0mao" type="application/atom+xml">
   
@@ -154,14 +175,14 @@
           </div>
           <div id="js-content" class="content-ll">
             
-<article id="post-hello-world" class="article article-type-post " itemscope itemprop="blogPost">
+<article id="post-CentOS-7搭建OpenVPN" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      CentOS 7搭建OpenVPN
     </h1>
   
 
@@ -173,30 +194,173 @@
 	</span>
 
 
-<a href="/2021/09/08/hello-world/" class="archive-article-date">
-  	<time datetime="2021-09-08T05:07:49.636Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-09-08</time>
+<a href="/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/" class="archive-article-date">
+  	<time datetime="2021-10-11T12:47:03.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-10-11</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><span id="more"></span>
-
+        <p>前言</p>
 <hr>
-<p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>网络安全第二次作业</p>
+<hr>
+<span id="more"></span>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<h1 id="一、选用一款VPN应用软件系统，并进行简单介绍（100字以上）。"><a href="#一、选用一款VPN应用软件系统，并进行简单介绍（100字以上）。" class="headerlink" title="一、选用一款VPN应用软件系统，并进行简单介绍（100字以上）。"></a>一、选用一款VPN应用软件系统，并进行简单介绍（100字以上）。</h1><h2 id="OpenVPN-（当前主流）"><a href="#OpenVPN-（当前主流）" class="headerlink" title="OpenVPN （当前主流）"></a>OpenVPN （当前主流）</h2><h3 id="功能特性"><a href="#功能特性" class="headerlink" title="功能特性"></a>功能特性</h3><p>对任何IP子网或者虚拟以太网通一个UDP或者TCP端口来建立隧道。</p>
+<p>架构一个可扩展的，负载均衡的VPN集群系统，同时支持来自上千用户的连接。</p>
+<p>使用任意加密算法，可以实现简单的静态密码的传统加密，或者基于证书的公钥私钥加密算法。</p>
+<p>对数据流进行实时的压缩。</p>
+<p>支持对端节点通过DHCP动态获取IP</p>
+<p>NAT 支持，对于面向连接的有状态防火墙，不需要特殊设置。</p>
+<p>客户端使用，支持Windows，Mac OS ,Linux。</p>
+<h3 id="3种实现案例"><a href="#3种实现案例" class="headerlink" title="3种实现案例"></a>3种实现案例</h3><p>Peer-to-Peer VPN，这种场景，将Internet 两台机器（公网地址）使用VPN连接起来。</p>
+<p>Remote Access VPN（远程访问），该实现方案，旨在解决，移动办公，经常出差不在办公室的，公司生产环境连接。在这个场景种远程访问者一般没有公网IP，他们使用内网地址通过防火墙设备及逆行NAT转换后连接互联网。</p>
+<p>SIte-to-Site VPN ，用于连接两个或者多个地域上不同的局域网LAN，每个LAN有一台OpenVPN 服务器作为接入点，组成虚拟专用网络，使得不同LAN里面的主机和服务器都能够相互通讯。</p>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>VPN直译就是虚拟专用通道，是提供给企业之间或者个人与公司之间安全数据传输的隧道，OpenVPN无疑是Linux下开源VPN的先锋，提供了良好的性能和友好的用户GUI。</p>
+<p>OpenVPN大量使用了OpenSSL加密库中的SSLv3/TLSv1协议函数库。</p>
+<p>OpenVPN 是一个基于 OpenSSL 库的应用层 VPN 实现。和传统 VPN 相比，它的优点是简单易用。</p>
+<h1 id="二、对该软件实现的VPN进行分析。（给出主要的实现方式或者协议、适用场景等。）"><a href="#二、对该软件实现的VPN进行分析。（给出主要的实现方式或者协议、适用场景等。）" class="headerlink" title="二、对该软件实现的VPN进行分析。（给出主要的实现方式或者协议、适用场景等。）"></a>二、对该软件实现的VPN进行分析。（给出主要的实现方式或者协议、适用场景等。）</h1><h2 id="实现方式"><a href="#实现方式" class="headerlink" title="实现方式"></a>实现方式</h2><p>使用OpenVPN创建基于证书验证Remote Access 的VPN</p>
+<h2 id="物理结构图"><a href="#物理结构图" class="headerlink" title="物理结构图"></a>物理结构图</h2><p><img src="1.png"></p>
+<h2 id="协议"><a href="#协议" class="headerlink" title="协议"></a>协议</h2><h3 id="TLS协议"><a href="#TLS协议" class="headerlink" title="TLS协议"></a>TLS协议</h3><p>TLS（Transport Layer Security，安全传输层)，TLS是建立在传输层TCP协议之上的协议，服务于应用层，它的前身是SSL（Secure Socket Layer，安全套接字层）。</p>
+<p>TLS协议主要解决如下三个网络安全问题。</p>
+<ol>
+<li>保密(message privacy)，保密通过加密encryption实现，所有信息都加密传输，第三方无法嗅探；</li>
+<li>完整性(message integrity)，通过MAC校验机制，一旦被篡改，通信双方会立刻发现；</li>
+<li>认证(mutual authentication)，双方认证,双方都可以配备证书，防止身份被冒充</li>
+</ol>
+<h3 id="UDP协议"><a href="#UDP协议" class="headerlink" title="UDP协议"></a>UDP协议</h3><p>用户数据报协议，是一种无连接的<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E4%BC%A0%E8%BE%93%E5%B1%82">传输层</a>协议，提供面向事务的简单不可靠信息传送服务。</p>
+<h2 id="适用场景"><a href="#适用场景" class="headerlink" title="适用场景"></a>适用场景</h2><p>移动办公，经常出差不在办公室的，公司生产环境连接。在这个场景种远程访问者一般没有公网IP，他们使用内网地址通过防火墙设备及逆行NAT转换后连接互联网。</p>
+<h1 id="三、给出适用该软件进行VPN搭建的大致过程。"><a href="#三、给出适用该软件进行VPN搭建的大致过程。" class="headerlink" title="三、给出适用该软件进行VPN搭建的大致过程。"></a>三、给出适用该软件进行VPN搭建的大致过程。</h1><h2 id="1、安装准备"><a href="#1、安装准备" class="headerlink" title="1、安装准备"></a>1、安装准备</h2><p>OpenVPN  服务器：CetnOS 7 64 位（192.168.152.131）</p>
+<p>客户端：Windows 10（10.133.3.30）</p>
+<h2 id="2、CetnOS-7-64-位安装"><a href="#2、CetnOS-7-64-位安装" class="headerlink" title="2、CetnOS 7 64 位安装"></a>2、CetnOS 7 64 位安装</h2><p>在网上找一篇详细安装教程，安装即可。</p>
+<h2 id="3、下载easy-rsa证书生成工具"><a href="#3、下载easy-rsa证书生成工具" class="headerlink" title="3、下载easy-rsa证书生成工具"></a>3、下载easy-rsa证书生成工具</h2><h4 id="开启epel源"><a href="#开启epel源" class="headerlink" title="开启epel源"></a>开启<code>epel</code>源</h4><p>采用<code>yum</code>的方式安装</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ yum install -y epel-release</span><br><span class="line">$ yum install -y openssl lzo pam openssl-devel lzo-devel pam-devel</span><br></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p><img src="2.png"></p>
+<p><img src="3.png"></p>
+<h4 id="下载easy-rsa证书生成工具"><a href="#下载easy-rsa证书生成工具" class="headerlink" title="下载easy-rsa证书生成工具"></a>下载easy-rsa证书生成工具</h4><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ yum install -y easy-rsa</span><br></pre></td></tr></table></figure>
+
+<p><img src="4.png"></p>
+<h4 id="时间同步处理"><a href="#时间同步处理" class="headerlink" title="时间同步处理"></a>时间同步处理</h4><p>极为重要，要不然证书可能会有问题</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">yum -y install ntp ntpdate</span><br><span class="line">ntpdate 0.asia.pool.ntp.org</span><br></pre></td></tr></table></figure>
+
+<h4 id="创建证书环境目录"><a href="#创建证书环境目录" class="headerlink" title="创建证书环境目录"></a>创建证书环境目录</h4><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">mkdir</span> -p /opt/easy-rsa</span><br><span class="line">cp -a /usr/share/easy-rsa/<span class="number">3</span>.<span class="number">0</span>.<span class="number">8</span>/* /opt/easy-rsa/</span><br><span class="line">cp -a /usr/share/doc/easy-rsa-<span class="number">3</span>.<span class="number">0</span>.<span class="number">8</span>/vars.example /opt/easy-rsa/vars</span><br></pre></td></tr></table></figure>
+
+<h4 id="修改配置文件vars文件"><a href="#修改配置文件vars文件" class="headerlink" title="修改配置文件vars文件"></a>修改配置文件<code>vars</code>文件</h4><p>为生成秘钥前做准备，记得删掉相应行的注释</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /opt/easy-rsa/vars</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">set_var EASYRSA_DN      &quot;cn_only&quot;</span><br><span class="line">set_var EASYRSA_REQ_COUNTRY     &quot;CN&quot;</span><br><span class="line">set_var EASYRSA_REQ_PROVINCE    &quot;Shanghai&quot;</span><br><span class="line">set_var EASYRSA_REQ_CITY        &quot;Shanghai&quot;</span><br><span class="line">set_var EASYRSA_REQ_ORG         &quot;Alin&quot;</span><br><span class="line">set_var EASYRSA_REQ_EMAIL       &quot;<span class="number">507713342</span>@qq.com&quot;</span><br><span class="line">set_var EASYRSA_NS_SUPPORT      &quot;yes&quot;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="4、初始化"><a href="#4、初始化" class="headerlink" title="4、初始化"></a>4、初始化</h2><h4 id="创建pki目录"><a href="#创建pki目录" class="headerlink" title="创建pki目录"></a>创建<code>pki</code>目录</h4><p>在当前目录下创建<code>pki</code>目录，用于存储证书</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /opt/easy-rsa/</span><br><span class="line">/opt/easy-rsa/easyrsa init-pki</span><br></pre></td></tr></table></figure>
+
+<p><img src="5.png"></p>
+<h4 id="创建根证书"><a href="#创建根证书" class="headerlink" title="创建根证书"></a>创建根证书</h4><p>用于ca对之后生成的server和client证书签名时使用</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/opt/easy-rsa/easyrsa build-ca</span><br></pre></td></tr></table></figure>
+
+<p><img src="6.png"></p>
+<h4 id="创建server证书和私钥文件"><a href="#创建server证书和私钥文件" class="headerlink" title="创建server证书和私钥文件"></a>创建server证书和私钥文件</h4><p>nopass表示不加密私钥文件，生成过程中直接回车默认</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/opt/easy-rsa/easyrsa gen-req server nopass</span><br></pre></td></tr></table></figure>
+
+<p><img src="7.png"></p>
+<h4 id="给server证书签名"><a href="#给server证书签名" class="headerlink" title="给server证书签名"></a>给server证书签名</h4><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/opt/easy-rsa/easyrsa sign server server</span><br></pre></td></tr></table></figure>
+
+<p><img src="8.png"></p>
+<h4 id="创建Diffie-Hellman文件"><a href="#创建Diffie-Hellman文件" class="headerlink" title="创建Diffie-Hellman文件"></a>创建Diffie-Hellman文件</h4><p>秘钥交换时的Diffie-Hellman算法</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/opt/easy-rsa/easyrsa gen-dh</span><br></pre></td></tr></table></figure>
+
+<p><img src="9.png"></p>
+<h4 id="创建client端证书和私钥文件"><a href="#创建client端证书和私钥文件" class="headerlink" title="创建client端证书和私钥文件"></a>创建client端证书和私钥文件</h4><p>nopass表示不加密私钥文件，生成过程中直接回车默认</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/opt/easy-rsa/easyrsa gen-req client nopass</span><br></pre></td></tr></table></figure>
+
+<p><img src="10.png"></p>
+<h4 id="给Client端证书签名"><a href="#给Client端证书签名" class="headerlink" title="给Client端证书签名"></a>给Client端证书签名</h4><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/opt/easy-rsa/easyrsa sign client client</span><br></pre></td></tr></table></figure>
+
+<p><img src="11.png"></p>
+<h2 id="5、OpenVPN服务端部署"><a href="#5、OpenVPN服务端部署" class="headerlink" title="5、OpenVPN服务端部署"></a>5、OpenVPN服务端部署</h2><h4 id="安装openvpn软件"><a href="#安装openvpn软件" class="headerlink" title="安装openvpn软件"></a>安装openvpn软件</h4><p>若这一步无法正常安装，有可能是虚拟机没连网。</p>
+<p>如果不是网络问题，建议参考下CentOS 7 安装后的 repo 源管理<a target="_blank" rel="noopener" href="https://blog.csdn.net/fdcp123/article/details/115180957">https://blog.csdn.net/fdcp123/article/details/115180957</a></p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum -y install openvpn</span><br></pre></td></tr></table></figure>
+
+<p><img src="12.png"></p>
+<h4 id="修改配置文件server-conf"><a href="#修改配置文件server-conf" class="headerlink" title="修改配置文件server.conf"></a>修改配置文件server.conf</h4><p>自行创建并修改配置文件</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> /etc/openvpn</span><br><span class="line">vim server.conf</span><br></pre></td></tr></table></figure>
+
+<p>写入以下内容</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">port <span class="number">1194</span> #端口</span><br><span class="line">proto udp #协议</span><br><span class="line">dev tun #采用路由隧道模式tun</span><br><span class="line">ca ca.crt #ca证书文件位置</span><br><span class="line">cert server.crt #服务端公钥名称</span><br><span class="line">key server.key #服务端私钥名称</span><br><span class="line">dh dh.pem #交换证书</span><br><span class="line">server <span class="number">10</span>.<span class="number">8</span>.<span class="number">0</span>.<span class="number">0</span> <span class="number">255</span>.<span class="number">255</span>.<span class="number">255</span>.<span class="number">0</span> #给客户端分配地址池，注意：不能和VPN服务器内网网段有相同</span><br><span class="line">push &quot;route <span class="number">172</span>.<span class="number">16</span>.<span class="number">1</span>.<span class="number">0</span> <span class="number">255</span>.<span class="number">255</span>.<span class="number">255</span>.<span class="number">0</span>&quot; #允许客户端访问内网<span class="number">172</span>.<span class="number">16</span>.<span class="number">1</span>.<span class="number">0</span>网段</span><br><span class="line">ifconfig-pool-persist ipp.txt #地址池记录文件位置</span><br><span class="line">keepalive <span class="number">10</span> <span class="number">120</span> #存活时间，<span class="number">10</span>秒<span class="built_in">ping</span>一次,<span class="number">120</span> 如未收到响应则视为断线</span><br><span class="line">max-clients <span class="number">100</span> #最多允许<span class="number">100</span>个客户端连接</span><br><span class="line">status openvpn-status.log #日志记录位置</span><br><span class="line">verb <span class="number">3</span> #openvpn版本</span><br><span class="line">client-to-client #客户端与客户端之间支持通信</span><br><span class="line">log /var/log/openvpn.log #openvpn日志记录位置</span><br><span class="line">persist-key #通过keepalive检测超时后，重新启动VPN，不重新读取keys，保留第一次使用的keys。</span><br><span class="line">persist-tun #检测超时后，重新启动VPN，一直保持tun是linkup的。否则网络会先linkdown然后再linkup</span><br><span class="line">duplicate-cn</span><br></pre></td></tr></table></figure>
+
+<h4 id="拷贝证书到openvpn主配置文件目录下"><a href="#拷贝证书到openvpn主配置文件目录下" class="headerlink" title="拷贝证书到openvpn主配置文件目录下"></a>拷贝证书到openvpn主配置文件目录下</h4><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cp -a /opt/easy-rsa/pki/ca.crt /etc/openvpn/</span><br><span class="line">cp -a /opt/easy-rsa/pki/issued/server.crt /etc/openvpn/</span><br><span class="line">cp -a /opt/easy-rsa/pki/private/server.key /etc/openvpn/</span><br><span class="line">cp -a /opt/easy-rsa/pki/dh.pem /etc/openvpn/</span><br></pre></td></tr></table></figure>
+
+<h4 id="启动openvpn"><a href="#启动openvpn" class="headerlink" title="启动openvpn"></a>启动openvpn</h4><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">systemctl -f enable openvpn@server.service</span><br><span class="line">systemctl <span class="built_in">start</span> openvpn@server.service</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="6、OpenVPN客户端部署"><a href="#6、OpenVPN客户端部署" class="headerlink" title="6、OpenVPN客户端部署"></a>6、OpenVPN客户端部署</h2><p>在windows环境下部署OpenVPN的客户端的，首先需要<strong>下载安装OpenVPN客户端软件</strong></p>
+<p>这篇博文里该博主放了下载连接<a target="_blank" rel="noopener" href="https://wandouduoduo.github.io/articles/decac6ef.html#win10%E5%AE%A2%E6%88%B7%E7%AB%AF%E8%BF%9E%E6%8E%A5%E6%B5%8B%E8%AF%95">https://wandouduoduo.github.io/articles/decac6ef.html#win10%E5%AE%A2%E6%88%B7%E7%AB%AF%E8%BF%9E%E6%8E%A5%E6%B5%8B%E8%AF%95</a></p>
+<p><img src="21.png"></p>
+<p>拷贝服务端生成的证书，到OpenVPN安装目录的<code>config</code>目录下</p>
+<p>分别拷贝以下几个文件</p>
+<p>如果无法拷贝的，可以安装Xftp，然后以管理员身份启动Xftp并远程连接CentOS，然后就可以直接复制粘贴</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">/opt/easy-rsa/pki/ca.crt </span><br><span class="line">/opt/easy-rsa/pki/issued/client.crt</span><br><span class="line">/opt/easy-rsa/pki/private/client.key</span><br></pre></td></tr></table></figure>
+
+<p><img src="13.png"></p>
+<p>在OpenVPN安装目录的<code>config</code>目录下，新建一个<code>client.ovpn</code>文件，在文件中添加如下配置</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">client <span class="comment">#指定当前VPN是客户端</span></span><br><span class="line">dev tun <span class="comment">#使用tun隧道传输协议</span></span><br><span class="line">proto udp <span class="comment">#使用udp协议传输数据</span></span><br><span class="line">remote 192.168.152.131 1194 <span class="comment">#openvpn服务器IP地址端口号</span></span><br><span class="line">resolv-retry infinite <span class="comment">#断线自动重新连接，在网络不稳定的情况下非常有用</span></span><br><span class="line">nobind <span class="comment">#不绑定本地特定的端口号</span></span><br><span class="line">ca ca.crt <span class="comment">#指定CA证书的文件路径</span></span><br><span class="line">cert client.crt <span class="comment">#指定当前客户端的证书文件路径</span></span><br><span class="line">key client.key <span class="comment">#指定当前客户端的私钥文件路径</span></span><br><span class="line">verb 3 <span class="comment">#指定日志文件的记录详细级别，可选0-9，等级越高日志内容越详细</span></span><br><span class="line">persist-key <span class="comment">#通过keepalive检测超时后，重新启动VPN，不重新读取keys，保留第一次使用的keys</span></span><br><span class="line">persist-tun <span class="comment">#检测超时后，重新启动VPN，一直保持tun是linkup的。否则网络会先linkdown然后再linkup</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="14.png"></p>
+<h2 id="7、转发设置"><a href="#7、转发设置" class="headerlink" title="7、转发设置"></a>7、转发设置</h2><p>在OpenVPN服务端开启内核转发，无论用哪种方式访问内部网络，都必须开启内核转发</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> &quot;<span class="built_in">net</span>.ipv4.ip_forward = <span class="number">1</span>&quot; &gt;&gt; /etc/sysctl.conf</span><br><span class="line">sysctl -p /etc/sysctl.conf </span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="8、防火墙"><a href="#8、防火墙" class="headerlink" title="8、防火墙"></a>8、防火墙</h2><p>在服务端开启防火墙，放行openvpn服务</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">systemctl <span class="built_in">start</span> firewalld</span><br><span class="line">firewall-<span class="built_in">cmd</span> --add-masquerade --permanent</span><br><span class="line">firewall-<span class="built_in">cmd</span> --add-service=openvpn --permanent</span><br><span class="line">firewall-<span class="built_in">cmd</span> --reload</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="9、连接"><a href="#9、连接" class="headerlink" title="9、连接"></a>9、连接</h2><p>双击安装好后的OpenVPN软件，然后右键点击连接</p>
+<p><img src="15.png"></p>
+<p><img src="16.png"></p>
+<p><img src="17.png"></p>
+<p>连接成功后，在托任务栏位置的OpenVPN图标会变绿色，则说明OpenVPN已经连接成功。</p>
+<p>OpenVPN会分配一个IP地址给客户端，客户端会使用该虚拟网络IP地址与服务端进行通信。</p>
+<h2 id="10、双重验证登录"><a href="#10、双重验证登录" class="headerlink" title="10、双重验证登录"></a>10、双重验证登录</h2><h4 id="修改server端配置"><a href="#修改server端配置" class="headerlink" title="修改server端配置"></a>修改server端配置</h4><p>在配置文件<code>/etc/openvpn/server.conf</code>中添加以下配置</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">script-security <span class="number">3</span>              #允许使用自定义脚本</span><br><span class="line">auth-user-pass-<span class="built_in">verify</span> /etc/openvpn/check.sh via-env</span><br><span class="line">username-as-common-name         #用户密码登陆方式验证</span><br></pre></td></tr></table></figure>
+
+<p>如果加上<code>client-cert-not-required</code>则代表只使用用户名密码方式验证登录，如果不加，则代表需要证书和用户名密码双重验证登录！现在我们要做的就是双重验证登录，所以不加。</p>
+<p>在此路径下添加脚本</p>
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/openvpn/check.sh</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/sh</span><br><span class="line">###########################################################</span><br><span class="line">PASSFILE=&quot;/etc/openvpn/openvpnfile&quot;</span><br><span class="line">LOG_FILE=&quot;/var/log/openvpn-password.log&quot;</span><br><span class="line">TIME_STAMP=`<span class="built_in">date</span> &quot;+<span class="variable">%Y-%</span>m-%d %T&quot;`</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [ ! -r &quot;$&#123;PASSFILE&#125;&quot; ]; then</span><br><span class="line">    <span class="built_in">echo</span> &quot;$&#123;TIME_STAMP&#125;: Could <span class="keyword">not</span> open password file \&quot;$&#123;PASSFILE&#125;\&quot; <span class="keyword">for</span> reading.&quot; &gt;&gt; $&#123;LOG_FILE&#125;</span><br><span class="line">    <span class="keyword">exit</span> <span class="number">1</span></span><br><span class="line">fi</span><br><span class="line"></span><br><span class="line">CORRECT_PASSWORD=`awk &#x27;<span class="variable">!/^;/&amp;&amp;!</span>/^#/&amp;&amp;$<span class="number">1</span>==&quot;&#x27;$&#123;username&#125;&#x27;&quot;&#123;<span class="built_in">print</span> $<span class="number">2</span>;<span class="keyword">exit</span>&#125;&#x27; $&#123;PASSFILE&#125;`</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span> [ &quot;$&#123;CORRECT_PASSWORD&#125;&quot; = &quot;&quot; ]; then</span><br><span class="line">    <span class="built_in">echo</span> &quot;$&#123;TIME_STAMP&#125;: User does <span class="keyword">not</span> <span class="keyword">exist</span>: username=\&quot;$&#123;username&#125;\&quot;, password=\&quot;$&#123;password&#125;\&quot;.&quot; &gt;&gt; $&#123;LOG_FILE&#125;</span><br><span class="line">    <span class="keyword">exit</span> <span class="number">1</span></span><br><span class="line">fi</span><br><span class="line"><span class="keyword">if</span> [ &quot;$&#123;password&#125;&quot; = &quot;$&#123;CORRECT_PASSWORD&#125;&quot; ]; then</span><br><span class="line">    <span class="built_in">echo</span> &quot;$&#123;TIME_STAMP&#125;: Successful authentication: username=\&quot;$&#123;username&#125;\&quot;.&quot; &gt;&gt; $&#123;LOG_FILE&#125;</span><br><span class="line">    <span class="keyword">exit</span> <span class="number">0</span></span><br><span class="line">fi</span><br><span class="line"></span><br><span class="line"><span class="built_in">echo</span> &quot;$&#123;TIME_STAMP&#125;: Incorrect password: username=\&quot;$&#123;username&#125;\&quot;, password=\&quot;$&#123;password&#125;\&quot;.&quot; &gt;&gt; $&#123;LOG_FILE&#125;</span><br><span class="line"><span class="keyword">exit</span> <span class="number">1</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="给脚本添加执行权限"><a href="#给脚本添加执行权限" class="headerlink" title="给脚本添加执行权限"></a>给脚本添加执行权限</h4><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chmod +x /etc/openvpn/check.sh</span><br></pre></td></tr></table></figure>
+
+<h4 id="编写用户密码文件"><a href="#编写用户密码文件" class="headerlink" title="编写用户密码文件"></a>编写用户密码文件</h4><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vim /etc/openvpn/openvpnfile</span><br></pre></td></tr></table></figure>
+
+<p><img src="18.png"></p>
+<p>用户名在前，密码在后</p>
+<h4 id="修改客户端配置"><a href="#修改客户端配置" class="headerlink" title="修改客户端配置"></a>修改客户端配置</h4><p>在安装目录下<code>config</code>目录下的client.ovpn文件中添加如下配置</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">auth-user-pass</span><br></pre></td></tr></table></figure>
+
+<p><img src="19.png"></p>
+<h4 id="重启openvpn服务"><a href="#重启openvpn服务" class="headerlink" title="重启openvpn服务"></a>重启openvpn服务</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl restart openvpn@server.service</span><br></pre></td></tr></table></figure>
+
+<p>然后重启OpenVPN客户端软件。</p>
+<p>再次使用就会跳出用户登录窗口了</p>
+<p><img src="20.png"></p>
+<p>正确输入设置的用户名和密码就可以连接成功啦！</p>
+<p>这个过程中可能出现各种问题，希望每个小伙伴在搭建的时候，都能静下心来慢慢弄，遇到问题就去找原因以及如何解决。</p>
+<p>加油！</p>
+<h1 id="参考博客"><a href="#参考博客" class="headerlink" title="参考博客"></a>参考博客</h1><p>CentOS的下载与安装图文教程   <a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_39968986/article/details/111398597">https://blog.csdn.net/qq_39968986/article/details/111398597</a></p>
+<p>Centos 7安装并配置OpenVPN   <a target="_blank" rel="noopener" href="https://blog.csdn.net/LENOVOJXN/article/details/113885229">https://blog.csdn.net/LENOVOJXN/article/details/113885229</a></p>
+<p>OpenVPN部署与应用                  <a target="_blank" rel="noopener" href="https://www.wanhebin.com/openvpn/639.html#4OpenVPN_ke_hu_duan_bu_shu">https://www.wanhebin.com/openvpn/639.html#4OpenVPN_ke_hu_duan_bu_shu</a></p>
+<p>centos7安装openVPN                <a target="_blank" rel="noopener" href="https://blog.csdn.net/snail_youth/article/details/117566352">https://blog.csdn.net/snail_youth/article/details/117566352</a></p>
+<p>OpenVPN2.4.3 安装部署文档（实战） <a target="_blank" rel="noopener" href="https://blog.51cto.com/ljohn/1961343">https://blog.51cto.com/ljohn/1961343</a></p>
 
       
 
@@ -241,17 +405,6 @@
       
       
       
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
       
 
       
@@ -302,7 +455,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://0mao.github.io/.com/2021/09/08/hello-world/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://0mao.github.io/.com/2021/10/11/CentOS-7%E6%90%AD%E5%BB%BAOpenVPN/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -316,15 +469,11 @@
   
 <nav id="article-nav">
   
-    <a href="/2021/09/08/%E4%BA%86%E8%A7%A3php/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          了解php
-        
-      </div>
-    </a>
   
+    <a href="/2021/09/15/%E5%88%9D%E8%AF%86%E6%95%B0%E6%8D%AE%E5%BA%93/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">初识数据库</div>
+      <i class="icon-circle-right"></i>
+    </a>
   
 </nav>
 
@@ -349,7 +498,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Quick-Start"><span class="toc-number">1.</span> <span class="toc-text">Quick Start</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Create-a-new-post"><span class="toc-number">1.1.</span> <span class="toc-text">Create a new post</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Run-server"><span class="toc-number">1.2.</span> <span class="toc-text">Run server</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Generate-static-files"><span class="toc-number">1.3.</span> <span class="toc-text">Generate static files</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Deploy-to-remote-sites"><span class="toc-number">1.4.</span> <span class="toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E9%80%89%E7%94%A8%E4%B8%80%E6%AC%BEVPN%E5%BA%94%E7%94%A8%E8%BD%AF%E4%BB%B6%E7%B3%BB%E7%BB%9F%EF%BC%8C%E5%B9%B6%E8%BF%9B%E8%A1%8C%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D%EF%BC%88100%E5%AD%97%E4%BB%A5%E4%B8%8A%EF%BC%89%E3%80%82"><span class="toc-number">1.</span> <span class="toc-text">一、选用一款VPN应用软件系统，并进行简单介绍（100字以上）。</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#OpenVPN-%EF%BC%88%E5%BD%93%E5%89%8D%E4%B8%BB%E6%B5%81%EF%BC%89"><span class="toc-number">1.1.</span> <span class="toc-text">OpenVPN （当前主流）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8A%9F%E8%83%BD%E7%89%B9%E6%80%A7"><span class="toc-number">1.1.1.</span> <span class="toc-text">功能特性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3%E7%A7%8D%E5%AE%9E%E7%8E%B0%E6%A1%88%E4%BE%8B"><span class="toc-number">1.1.2.</span> <span class="toc-text">3种实现案例</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">1.1.3.</span> <span class="toc-text">总结</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E5%AF%B9%E8%AF%A5%E8%BD%AF%E4%BB%B6%E5%AE%9E%E7%8E%B0%E7%9A%84VPN%E8%BF%9B%E8%A1%8C%E5%88%86%E6%9E%90%E3%80%82%EF%BC%88%E7%BB%99%E5%87%BA%E4%B8%BB%E8%A6%81%E7%9A%84%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F%E6%88%96%E8%80%85%E5%8D%8F%E8%AE%AE%E3%80%81%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF%E7%AD%89%E3%80%82%EF%BC%89"><span class="toc-number">2.</span> <span class="toc-text">二、对该软件实现的VPN进行分析。（给出主要的实现方式或者协议、适用场景等。）</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%9E%E7%8E%B0%E6%96%B9%E5%BC%8F"><span class="toc-number">2.1.</span> <span class="toc-text">实现方式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%89%A9%E7%90%86%E7%BB%93%E6%9E%84%E5%9B%BE"><span class="toc-number">2.2.</span> <span class="toc-text">物理结构图</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%8F%E8%AE%AE"><span class="toc-number">2.3.</span> <span class="toc-text">协议</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#TLS%E5%8D%8F%E8%AE%AE"><span class="toc-number">2.3.1.</span> <span class="toc-text">TLS协议</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#UDP%E5%8D%8F%E8%AE%AE"><span class="toc-number">2.3.2.</span> <span class="toc-text">UDP协议</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%80%82%E7%94%A8%E5%9C%BA%E6%99%AF"><span class="toc-number">2.4.</span> <span class="toc-text">适用场景</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E7%BB%99%E5%87%BA%E9%80%82%E7%94%A8%E8%AF%A5%E8%BD%AF%E4%BB%B6%E8%BF%9B%E8%A1%8CVPN%E6%90%AD%E5%BB%BA%E7%9A%84%E5%A4%A7%E8%87%B4%E8%BF%87%E7%A8%8B%E3%80%82"><span class="toc-number">3.</span> <span class="toc-text">三、给出适用该软件进行VPN搭建的大致过程。</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1%E3%80%81%E5%AE%89%E8%A3%85%E5%87%86%E5%A4%87"><span class="toc-number">3.1.</span> <span class="toc-text">1、安装准备</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2%E3%80%81CetnOS-7-64-%E4%BD%8D%E5%AE%89%E8%A3%85"><span class="toc-number">3.2.</span> <span class="toc-text">2、CetnOS 7 64 位安装</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3%E3%80%81%E4%B8%8B%E8%BD%BDeasy-rsa%E8%AF%81%E4%B9%A6%E7%94%9F%E6%88%90%E5%B7%A5%E5%85%B7"><span class="toc-number">3.3.</span> <span class="toc-text">3、下载easy-rsa证书生成工具</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%BC%80%E5%90%AFepel%E6%BA%90"><span class="toc-number">3.3.0.1.</span> <span class="toc-text">开启epel源</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BDeasy-rsa%E8%AF%81%E4%B9%A6%E7%94%9F%E6%88%90%E5%B7%A5%E5%85%B7"><span class="toc-number">3.3.0.2.</span> <span class="toc-text">下载easy-rsa证书生成工具</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%97%B6%E9%97%B4%E5%90%8C%E6%AD%A5%E5%A4%84%E7%90%86"><span class="toc-number">3.3.0.3.</span> <span class="toc-text">时间同步处理</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E8%AF%81%E4%B9%A6%E7%8E%AF%E5%A2%83%E7%9B%AE%E5%BD%95"><span class="toc-number">3.3.0.4.</span> <span class="toc-text">创建证书环境目录</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BF%AE%E6%94%B9%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6vars%E6%96%87%E4%BB%B6"><span class="toc-number">3.3.0.5.</span> <span class="toc-text">修改配置文件vars文件</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4%E3%80%81%E5%88%9D%E5%A7%8B%E5%8C%96"><span class="toc-number">3.4.</span> <span class="toc-text">4、初始化</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%9B%E5%BB%BApki%E7%9B%AE%E5%BD%95"><span class="toc-number">3.4.0.1.</span> <span class="toc-text">创建pki目录</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E6%A0%B9%E8%AF%81%E4%B9%A6"><span class="toc-number">3.4.0.2.</span> <span class="toc-text">创建根证书</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%9B%E5%BB%BAserver%E8%AF%81%E4%B9%A6%E5%92%8C%E7%A7%81%E9%92%A5%E6%96%87%E4%BB%B6"><span class="toc-number">3.4.0.3.</span> <span class="toc-text">创建server证书和私钥文件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BB%99server%E8%AF%81%E4%B9%A6%E7%AD%BE%E5%90%8D"><span class="toc-number">3.4.0.4.</span> <span class="toc-text">给server证书签名</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%9B%E5%BB%BADiffie-Hellman%E6%96%87%E4%BB%B6"><span class="toc-number">3.4.0.5.</span> <span class="toc-text">创建Diffie-Hellman文件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%88%9B%E5%BB%BAclient%E7%AB%AF%E8%AF%81%E4%B9%A6%E5%92%8C%E7%A7%81%E9%92%A5%E6%96%87%E4%BB%B6"><span class="toc-number">3.4.0.6.</span> <span class="toc-text">创建client端证书和私钥文件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BB%99Client%E7%AB%AF%E8%AF%81%E4%B9%A6%E7%AD%BE%E5%90%8D"><span class="toc-number">3.4.0.7.</span> <span class="toc-text">给Client端证书签名</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#5%E3%80%81OpenVPN%E6%9C%8D%E5%8A%A1%E7%AB%AF%E9%83%A8%E7%BD%B2"><span class="toc-number">3.5.</span> <span class="toc-text">5、OpenVPN服务端部署</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%AE%89%E8%A3%85openvpn%E8%BD%AF%E4%BB%B6"><span class="toc-number">3.5.0.1.</span> <span class="toc-text">安装openvpn软件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BF%AE%E6%94%B9%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6server-conf"><span class="toc-number">3.5.0.2.</span> <span class="toc-text">修改配置文件server.conf</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%8B%B7%E8%B4%9D%E8%AF%81%E4%B9%A6%E5%88%B0openvpn%E4%B8%BB%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95%E4%B8%8B"><span class="toc-number">3.5.0.3.</span> <span class="toc-text">拷贝证书到openvpn主配置文件目录下</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%90%AF%E5%8A%A8openvpn"><span class="toc-number">3.5.0.4.</span> <span class="toc-text">启动openvpn</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#6%E3%80%81OpenVPN%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%83%A8%E7%BD%B2"><span class="toc-number">3.6.</span> <span class="toc-text">6、OpenVPN客户端部署</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#7%E3%80%81%E8%BD%AC%E5%8F%91%E8%AE%BE%E7%BD%AE"><span class="toc-number">3.7.</span> <span class="toc-text">7、转发设置</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#8%E3%80%81%E9%98%B2%E7%81%AB%E5%A2%99"><span class="toc-number">3.8.</span> <span class="toc-text">8、防火墙</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#9%E3%80%81%E8%BF%9E%E6%8E%A5"><span class="toc-number">3.9.</span> <span class="toc-text">9、连接</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#10%E3%80%81%E5%8F%8C%E9%87%8D%E9%AA%8C%E8%AF%81%E7%99%BB%E5%BD%95"><span class="toc-number">3.10.</span> <span class="toc-text">10、双重验证登录</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BF%AE%E6%94%B9server%E7%AB%AF%E9%85%8D%E7%BD%AE"><span class="toc-number">3.10.0.1.</span> <span class="toc-text">修改server端配置</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BB%99%E8%84%9A%E6%9C%AC%E6%B7%BB%E5%8A%A0%E6%89%A7%E8%A1%8C%E6%9D%83%E9%99%90"><span class="toc-number">3.10.0.2.</span> <span class="toc-text">给脚本添加执行权限</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%BC%96%E5%86%99%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81%E6%96%87%E4%BB%B6"><span class="toc-number">3.10.0.3.</span> <span class="toc-text">编写用户密码文件</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%BF%AE%E6%94%B9%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%85%8D%E7%BD%AE"><span class="toc-number">3.10.0.4.</span> <span class="toc-text">修改客户端配置</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%87%8D%E5%90%AFopenvpn%E6%9C%8D%E5%8A%A1"><span class="toc-number">3.10.0.5.</span> <span class="toc-text">重启openvpn服务</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E5%8D%9A%E5%AE%A2"><span class="toc-number">4.</span> <span class="toc-text">参考博客</span></a></li></ol>
                     </div>
                 </span>
             </div>
@@ -496,10 +645,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">随笔</a>
-              </li>
             
             <div class="clearfix"></div>
           </ul>
